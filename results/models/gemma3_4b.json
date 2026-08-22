@@ -1,33 +1,33 @@
 {
-  "benchmark_run_id": "80a51b43c2ce4a6e8fdf6bf0148ae2a8",
-  "created_utc": "2026-08-20T07:02:18.460618+00:00",
-  "datasets": {
-    "arc_challenge": {
-      "accuracy": 0.738,
-      "agreement": 0.943,
-      "answer_recovery_rate": 1,
-      "answer_unanimous_rate": 0.79,
-      "conditional_accuracy": 0.738,
-      "instruction_compliance_rate": 1,
-      "n_questions": 200,
-      "prompt_invariant_incorrect_rate": 0.135,
-      "prompt_sensitivity": 0.057,
-      "question_majority_accuracy": 0.73
-    },
-    "sciq": {
-      "accuracy": 0.885,
-      "agreement": 0.974,
-      "answer_recovery_rate": 0.999,
-      "answer_unanimous_rate": 0.915,
-      "conditional_accuracy": 0.8859,
-      "instruction_compliance_rate": 0.999,
-      "n_questions": 200,
-      "prompt_invariant_incorrect_rate": 0.07,
-      "prompt_sensitivity": 0.026,
-      "question_majority_accuracy": 0.895
-    }
-  },
+  "benchmark_run_id": "fa65e330d57e4b0f9d2f967e3da0d1e6",
   "model": "gemma3:4b",
   "model_digest": null,
-  "protocol_version": "1.0"
+  "protocol_version": "1.0",
+  "created_utc": "2026-08-19T10:30:58.533540+00:00",
+  "datasets": {
+    "arc_challenge": {
+      "n_questions": 200,
+      "accuracy": 0,
+      "conditional_accuracy": 0,
+      "answer_recovery_rate": 0,
+      "instruction_compliance_rate": 0,
+      "question_majority_accuracy": 0,
+      "agreement": 0,
+      "prompt_sensitivity": 1,
+      "answer_unanimous_rate": 0,
+      "prompt_invariant_incorrect_rate": 0
+    },
+    "sciq": {
+      "n_questions": 200,
+      "accuracy": 0,
+      "conditional_accuracy": 0,
+      "answer_recovery_rate": 0,
+      "instruction_compliance_rate": 0,
+      "question_majority_accuracy": 0,
+      "agreement": 0,
+      "prompt_sensitivity": 1,
+      "answer_unanimous_rate": 0,
+      "prompt_invariant_incorrect_rate": 0
+    }
+  }
 }

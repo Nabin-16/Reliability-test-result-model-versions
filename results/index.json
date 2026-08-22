@@ -1,12 +1,23 @@
 [
   {
-    "benchmark_run_id": "80a51b43c2ce4a6e8fdf6bf0148ae2a8",
+    "benchmark_run_id": "ab9b74ba515e4578b96bc7fc4c3070c6",
+    "created_utc": "2026-08-22T19:24:58.433754+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "qwen2.5:0.5b",
+    "model_digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "e0ee6e8861c948d6899d5d876b7a4cfe",
     "created_utc": "2026-08-20T07:02:18.460618+00:00",
     "datasets": [
       "arc_challenge",
       "sciq"
     ],
-    "model": "gemma3:4b",
+    "model": "mistral:7b",
     "model_digest": null,
     "protocol_version": "1.0"
   },
@@ -22,13 +33,13 @@
     "protocol_version": "1.0"
   },
   {
-    "benchmark_run_id": "e0ee6e8861c948d6899d5d876b7a4cfe",
+    "benchmark_run_id": "80a51b43c2ce4a6e8fdf6bf0148ae2a8",
     "created_utc": "2026-08-20T07:02:18.460618+00:00",
     "datasets": [
       "arc_challenge",
       "sciq"
     ],
-    "model": "mistral:7b",
+    "model": "gemma3:4b",
     "model_digest": null,
     "protocol_version": "1.0"
   },
@@ -41,6 +52,49 @@
     ],
     "model": "phi4-mini:latest",
     "model_digest": null,
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "fffdd779e41e429384290be4be0f9b42",
+    "created_utc": "2026-08-19T12:04:48.536295+00:00",
+    "datasets": [
+      "sciq"
+    ],
+    "model": "llama3.2:3b",
+    "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "a387a2e6a73f422a8a26b7053f704153",
+    "created_utc": "2026-08-19T11:25:39.938193+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "llama3.2:3b",
+    "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "fa65e330d57e4b0f9d2f967e3da0d1e6",
+    "created_utc": "2026-08-19T10:30:58.533540+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "gemma3:4b",
+    "model_digest": null,
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "a6bf62601246458a868ffa5eb82f3f61",
+    "created_utc": "2026-08-19T10:11:16.173519+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "llama3.2:3b",
+    "model_digest": "a80c4f17acd55265feec403c7aef86be0c25983ab279d83f3bcd3abbcb5b8b72",
     "protocol_version": "1.0"
   }
 ]

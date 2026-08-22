@@ -1,0 +1,33 @@
+{
+  "benchmark_run_id": "ab9b74ba515e4578b96bc7fc4c3070c6",
+  "model": "qwen2.5:0.5b",
+  "model_digest": "a8b0c51577010a279d933d14c2a8ab4b268079d44c5c8830c0a93900f1827c67",
+  "protocol_version": "1.0",
+  "created_utc": "2026-08-22T19:24:58.433754+00:00",
+  "datasets": {
+    "arc_challenge": {
+      "n_questions": 200,
+      "accuracy": 0.4,
+      "conditional_accuracy": 0.4228,
+      "answer_recovery_rate": 0.946,
+      "instruction_compliance_rate": 0.723,
+      "question_majority_accuracy": 0.455,
+      "agreement": 0.7826,
+      "prompt_sensitivity": 0.2174,
+      "answer_unanimous_rate": 0.27,
+      "prompt_invariant_incorrect_rate": 0.12
+    },
+    "sciq": {
+      "n_questions": 200,
+      "accuracy": 0.723,
+      "conditional_accuracy": 0.7259,
+      "answer_recovery_rate": 0.996,
+      "instruction_compliance_rate": 0.646,
+      "question_majority_accuracy": 0.755,
+      "agreement": 0.8915,
+      "prompt_sensitivity": 0.1085,
+      "answer_unanimous_rate": 0.63,
+      "prompt_invariant_incorrect_rate": 0.075
+    }
+  }
+}
