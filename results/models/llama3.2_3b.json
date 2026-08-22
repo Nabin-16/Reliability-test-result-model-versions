@@ -1,0 +1,33 @@
+{
+  "benchmark_run_id": "b7a01dae004d4dd8b58efba9916e4784",
+  "created_utc": "2026-08-20T07:02:18.460618+00:00",
+  "datasets": {
+    "arc_challenge": {
+      "accuracy": 0.69,
+      "agreement": 0.93,
+      "answer_recovery_rate": 0.998,
+      "answer_unanimous_rate": 0.735,
+      "conditional_accuracy": 0.6914,
+      "instruction_compliance_rate": 0.913,
+      "n_questions": 200,
+      "prompt_invariant_incorrect_rate": 0.17,
+      "prompt_sensitivity": 0.07,
+      "question_majority_accuracy": 0.71
+    },
+    "sciq": {
+      "accuracy": 0.884,
+      "agreement": 0.979,
+      "answer_recovery_rate": 0.996,
+      "answer_unanimous_rate": 0.92,
+      "conditional_accuracy": 0.8876,
+      "instruction_compliance_rate": 0.971,
+      "n_questions": 200,
+      "prompt_invariant_incorrect_rate": 0.075,
+      "prompt_sensitivity": 0.021,
+      "question_majority_accuracy": 0.895
+    }
+  },
+  "model": "llama3.2:3b",
+  "model_digest": null,
+  "protocol_version": "1.0"
+}

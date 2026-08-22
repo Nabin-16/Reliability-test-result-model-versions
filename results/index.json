@@ -1,0 +1,46 @@
+[
+  {
+    "benchmark_run_id": "80a51b43c2ce4a6e8fdf6bf0148ae2a8",
+    "created_utc": "2026-08-20T07:02:18.460618+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "gemma3:4b",
+    "model_digest": null,
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "b7a01dae004d4dd8b58efba9916e4784",
+    "created_utc": "2026-08-20T07:02:18.460618+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "llama3.2:3b",
+    "model_digest": null,
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "e0ee6e8861c948d6899d5d876b7a4cfe",
+    "created_utc": "2026-08-20T07:02:18.460618+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "mistral:7b",
+    "model_digest": null,
+    "protocol_version": "1.0"
+  },
+  {
+    "benchmark_run_id": "3c1da4b4ca7047fd8c8ceb59c000c5ce",
+    "created_utc": "2026-08-20T07:02:18.460618+00:00",
+    "datasets": [
+      "arc_challenge",
+      "sciq"
+    ],
+    "model": "phi4-mini:latest",
+    "model_digest": null,
+    "protocol_version": "1.0"
+  }
+]
