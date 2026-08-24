@@ -1,6 +1,6 @@
 # PRISM Benchmark Results
 
-Benchmark results for [PRISM](https://github.com/Nabin-16/PRISM-Reliability-test-), a tool that tests how reliably local LLMs answer the same question when the prompt is worded differently.
+Benchmark results for PRISM, a tool that tests how reliably local LLMs answer the same question when the prompt is worded differently.
 
 Instead of just checking if a model gets an answer right, PRISM asks: *does it still get it right when you say the same thing five different ways?* That consistency score is what we track here.
 
