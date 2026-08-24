@@ -72,8 +72,11 @@ Low sensitivity + high agreement = a model that answers based on what you're ask
 
 ---
 
-## Running it yourself
+## Getting Started & Links
 
-The desktop app is at [Nabin-16/PRISM-Reliability-test-](https://github.com/Nabin-16/PRISM-Reliability-test-). It handles everything — Ollama, the prompt variations, scoring, and submission. You just need the models pulled locally.
+- **Download App (Windows / macOS / Linux):** [prism-slm-neon.vercel.app](https://prism-slm-neon.vercel.app/)
+- **Run / Build the App Yourself:** [karkikaruna/Prismapp](https://github.com/karkikaruna/Prismapp)
+- **Research Pipeline:** [Nabin-16/PRISM-Reliability-test-](https://github.com/Nabin-16/PRISM-Reliability-test-)
 
 Results you run yourself won't appear in this repo automatically (they go through the review queue first), but the app will show you your own local results immediately after the run.
+
